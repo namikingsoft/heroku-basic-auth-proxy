@@ -1,15 +1,16 @@
-Heroku Basic Auth Proxy via Query String
+Heroku Basic Auth Proxy using Query String
 ===
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+For access test via basic authentication.
 
 Getting Started
 ---
 
-1. Deploy to Heroku
+1. Press `Deploy to Heroku` then setup app name and idpw basic auth   
 
-2. Setup environment of basic auth on Heroku
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-3. Access
+2. Access with url query string
 
     ```bash
     open https://xxxx.herokuapp.com?url=https://example.com
