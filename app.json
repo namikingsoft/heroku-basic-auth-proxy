@@ -1,0 +1,18 @@
+{
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "env": {
+    "BASIC_AUTH_USER": {
+      "description": "Username of basic auth",
+      "required": true
+    },
+    "BASIC_AUTH_PASS": {
+      "description": "Password of basic auth",
+      "required": true
+    }
+  }
+}
